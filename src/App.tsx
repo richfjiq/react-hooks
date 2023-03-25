@@ -1,4 +1,4 @@
-import { Counter, User } from './components';
+import { Counter, TimerParent, User } from './components';
 
 const App = () => {
   return (
@@ -7,6 +7,9 @@ const App = () => {
       <hr />
       <Counter />
       <User />
+      <h2>useEffect - useRef</h2>
+      <hr />
+      <TimerParent />
     </div>
   );
 };
