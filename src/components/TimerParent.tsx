@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { FC, useState } from 'react';
 import Timer from './Timer';
 
-const TimerParent = () => {
+const TimerParent: FC = () => {
   const [milliseconds, setMilliseconds] = useState(1000);
 
   return (

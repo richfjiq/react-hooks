@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { FC, useState } from 'react';
 
 interface User {
   uid: string;
   name: string;
 }
 
-const User = () => {
+const User: FC = () => {
   const [user, setUser] = useState<User>();
 
   const login = () => {

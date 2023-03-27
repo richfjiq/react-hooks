@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { FC, useState } from 'react';
 
-const Counter = () => {
+const Counter: FC = () => {
   const [counter, setCounter] = useState(0);
 
   const increment = (number: number = 1): void => {
