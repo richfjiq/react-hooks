@@ -1,4 +1,11 @@
-import { Counter, RedCounter, TimerParent, User } from './components';
+import {
+  Counter,
+  Form,
+  FormAddress,
+  RedCounter,
+  TimerParent,
+  User,
+} from './components';
 
 const App = () => {
   return (
@@ -14,6 +21,11 @@ const App = () => {
       <h2>useReducer</h2>
       <hr />
       <RedCounter />
+      <h2>customHook</h2>
+      <hr />
+      <Form />
+      <hr />
+      <FormAddress />
     </div>
   );
 };
